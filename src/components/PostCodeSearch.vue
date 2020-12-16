@@ -11,12 +11,11 @@
         </p>
         <v-card class="mx-auto" max-width="480" outlined>
           <v-combobox
-            @keyup="updatePostcode"
+            @change="updatePostcode"
             v-model="postcode"
             :items="postcodeItems"
             :search-input.sync="search"
             hide-selected
-            single
             small-chips
             clearable
             prepend-icon="mdi-map-marker"
@@ -27,11 +26,11 @@
           </div>
         </v-card>
 
-        <div class="mt-4 text-center" v-if="postcode">
+        <!-- <div class="mt-4 text-center" v-if="postcode">
           <v-btn @click="checkPostCode" rounded color="primary" dark>
             Check
           </v-btn>
-        </div>
+        </div> -->
       </v-col>
     </v-row>
   </v-container>
