@@ -1,4 +1,4 @@
-[DEMO](https://postcodefeaturespace.web.app/)
+[DEMO link click here](https://postcodefeaturespace.web.app/)
 
 # postcode
 
