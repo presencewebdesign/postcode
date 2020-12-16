@@ -44,7 +44,7 @@
             v-for="(item, index) in postcodeNearestDetails"
             :key="index"
           >
-            <v-list-item-content style="cursor: pointer">
+            <v-list-item-content>
               <v-list-item-title v-if="item.postcode"
                 >Postcode: {{ item.postcode }}</v-list-item-title
               >
