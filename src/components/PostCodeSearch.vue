@@ -7,7 +7,7 @@
           Postcodes.io app
         </h1>
         <p class="subheading font-weight-regular">
-          Enter your postcode to find your location
+          Enter your postcode to and press enter to show your location
         </p>
         <v-card class="mx-auto" max-width="480" outlined>
           <v-combobox
